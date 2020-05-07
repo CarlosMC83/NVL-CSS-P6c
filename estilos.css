@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 900px;
+    margin: auto;
+    background-color: gainsboro;
+
+li[class] {
+    font-size: 200%;
+}
+
+li[class="familia Amaryllidaceae"] {
+    background-color: yellow;
+}
+
+li[class~="condimento"] {
+    color: red;
+}
+    
